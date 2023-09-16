@@ -1232,3 +1232,75 @@ line-height: 10px;
         justify-content: center;
     }
 }
+@media (max-width:400px){
+    .page1 .nav .Logo p{
+        font-size: 18px;
+        font-weight: 400;
+    
+    }
+    .page .nav .Logo p span{
+        font-size: 40px;
+        /* font-family: 'Lobster', cursive; */
+        /* font-family: 'Oleo Script', cursive; */
+        font-family: 'Abril Fatface', cursive;
+    
+    }
+    .page2 .page2-content .Page2-content-left{
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+        height: 90%;
+        margin-top: 20px;
+        position: relative;
+        
+        
+    }
+    .page2 .page2-content .Page2-Heading h1{
+        
+        padding-top: 0px;
+        font-size: 2rem;
+        
+    }
+    .page2 .page2-content .page2-Matter{
+        padding-right: 15px;
+        font-size: 1.2rem;
+        padding-top: 20px;
+        
+        
+    }
+    .page3 .page3-heading h1{
+        text-align: center;
+        padding-top: 20px;
+        font-size: 2rem;
+        
+        font-family: 'Abril Fatface', cursive;
+        color: #216c53;
+        /* font-weight: 400; */
+        margin-bottom: 0px;
+    }
+    .section1-right{
+        flex: 0 0 100%;
+        max-width: 100%;
+        height: 60%;
+        margin-left: 20px;
+    }
+    .section1-left h1{
+        display: none;
+    }
+    .section1-left p{
+        font-size: 1rem;
+    }
+    .page5{
+        /* display: flex; */
+        padding: 50px 20px 20px 20px;
+        
+    }
+    .heading{
+        margin-top: 20px;
+        font-size: 1.5rem;
+    }
+    .page5-head .Quote{
+        font-size: 2rem;
+    }
+    
+}
